@@ -33,7 +33,7 @@ RUN mkdir packer &&  cd packer && wget http://dl.bintray.com/mitchellh/packer/pa
 # TODO does not work as desired... Packer executable is at /packer/packer
 ENV PATH packer:$PATH
 
-
+RUN chmod -R a=rx /var/log/vmware/
 
 # Switch back to user jenkins
 USER jenkins

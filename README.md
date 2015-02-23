@@ -8,7 +8,7 @@ docker build -t jenkins-packer .
 
 # Run Jenkins
 ```
-docker run --name tuabachenkins -p 8080:8080 -v ..../jenkins_home/:/var/jenkins_home jenkins-packer
+docker run -d --name tuabachenkins -p 8080:8080 -v ..../jenkins_home/:/var/jenkins_home jenkins-packer
 ```
 
 # Build packer-windows with Jenkins
