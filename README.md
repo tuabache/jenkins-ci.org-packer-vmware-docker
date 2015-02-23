@@ -1,7 +1,7 @@
 # jenkins-ci.org-packer-vmware-docker
 Docker with Jenkins and packer and vmware.
 
-# Build:
+# Build
 ```
 docker build -t jenkins-packer .
 ```
